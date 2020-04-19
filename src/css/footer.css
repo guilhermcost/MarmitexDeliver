@@ -1,0 +1,25 @@
+footer{
+    width: 100%;
+    text-align: center;
+    color: white;
+    clear: both;
+}
+
+.copyright {
+    font-size: 13px;
+  }
+  
+  .redes-sociais li{
+    display: inline;
+    margin: 0 0 0 15px;
+    font-size: 2em;
+  }
+  
+  .redes-sociais i{
+    color: white;
+    transition: 1s all;
+  }
+  
+  .redes-sociais i:hover{
+    transform: scale(1.2);
+  } 

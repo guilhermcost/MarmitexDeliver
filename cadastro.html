@@ -1,0 +1,512 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marmitex Delivery</title>
+
+    <link rel = "shortcut icon" href="src/img/favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="src/css/reset.css">
+    <link rel="stylesheet" type = 'text/css' href="src/css/bootstrap.min.css">
+    <link rel="stylesheet" type = 'text/css' href="src/css/cores.css">
+    <link rel="stylesheet" type = 'text/css' href="src/css/cabecalho.css">
+    <link rel="stylesheet" type = 'text/css' href="src/css/footer.css">
+    <link rel="stylesheet" type = 'text/css' href="src/css/cadastro.css">
+    <!-- Elementos externos - Fontes e Glyphicons -->
+    <link href="https://fonts.googleapis.com/css?family=Candal|Days+One|Fugaz+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <header class="cor-laranja caixa"> 
+        <nav class = 'navbar navbar-expand-lg' id="barra-nav">
+            <h1><a href="" class="navbar-brand"><img src="src/img/Quentinhas-03.png" alt="Marmitex Delivery" class="logo img-fluid"></a></h1>            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02"></div>
+                <ul class = 'navbar-nav mr-auto mt-2 mt-lg-0 lista-nav'>
+                    <li class="nav-item item active">
+                        <a href="index.html" class="nav-link">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item item">
+                        <a href="#" class="nav-link">
+                            Planos
+                        </a>
+                    </li>
+                    <li class="nav-item item">
+                        <a href="#" class="nav-link">
+                           Parceiros
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="cadastro.html" class="nav-link">
+                            Entrar <span><i class="fa fa-sign-in" aria-hidden="true"></i></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row p-4">
+                <div class="col-lg-5 marmitex-form" id="personal-info">
+                    <h3>Cadastre-se</h3>
+                    <form action="">
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Nome Completo</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="João Augusto">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleFormControlInput1">Telefone</label>
+                              <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="+55 (DDD) 999999999">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleFormControlSelect2">Sua Senha:</label>
+                              <input type="password" class="form-control" id="exampleFormControlInput1">
+
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect2">Confirme sua Senha:</label>
+                                <input type="password" class="form-control" id="exampleFormControlInput1">
+
+                            </div>
+
+                    </form>
+
+                    <div class="botoes">
+                        <button type="button" class="btn btn-light disabled" aria-disabled="true">Anterior</button>
+                        <button type="button" class="btn btn-primary ">Próximo</button>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 marmitex-form hide" id="address-info">
+                    <h3>Endereço</h3>
+                    <form action="">
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">CEP</label>
+                                <input type="text" class="form-control" placeholder="44444-444">
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-8">
+                                    <label for="exampleFormControlInput1">Rua</label>
+                                    <input type="text" class="form-control" placeholder="Rua Piauí">
+                                </div>
+                                <div class="form-group col-4">
+                                    <label for="exampleFormControlSelect2">Número</label>
+                                    <input type="text" class="form-control">
+    
+                                </div>
+                            </div>   
+
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect2">Bairro</label>
+                                <input type="text" class="form-control" placeholder="Pituba">
+
+                            </div>
+                            
+                            <div class="row">
+                                <div class="form-group col-8">
+                                    <label for="exampleFormControlSelect2">Cidade</label>
+                                    <input type="text" class="form-control">
+
+                                </div>
+                                <div class="form-group col-4">
+                                    <label for="exampleFormControlSelect2">Estado</label>
+                                    <input type="text" class="form-control">
+
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect2">País</label>
+                                <input type="text" class="form-control">
+
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect2">Informações Adicionais</label>
+                                <input type="text" class="form-control">
+
+                            </div>
+                    </form>
+
+                    <div class="botoes">
+                        <button type="button" class="btn btn-light" aria-disabled="true">Anterior</button>
+                        <button type="button" class="btn btn-primary ">Próximo</button>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 marmitex-form hide">
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Quais comidas você espera encontrar no Marmitex?</label>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                          <label class="form-check-label" for="defaultCheck1">
+                            Massa
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                          <label class="form-check-label" for="defaultCheck1">
+                            Comida Baiana
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                          <label class="form-check-label" for="defaultCheck1">
+                            Frango à milanesa
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                          <label class="form-check-label" for="defaultCheck1">
+                            Bife à milanesa
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                          <label class="form-check-label" for="defaultCheck1">
+                            Comida Vegetariana
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                          <label class="form-check-label" for="defaultCheck1">
+                            Comida Vegana
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                          <label class="form-check-label" for="defaultCheck1">
+                            Churrasco
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                          <label class="form-check-label" for="defaultCheck1">
+                            Escondidinho
+                          </label>
+                        </div>
+                      </div>
+
+                    <div class="botoes">
+                        <button type="button" class="btn btn-light">Anterior</button>
+                        <a href="planos.html"><button type="button" class="btn btn-success">Escolher Plano</button></a>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+            </div>
+        </div>
+
+        
+    </main>
+
+    <footer class="cor-laranja">
+        <img class= "logo p-3" src="src/img/Quentinhas-03.png" alt="Foto da Logo"></div>
+        <p class="copyright">&copy; Copyright Marmitex Delivery - 2020</p>
+  
+        <ul class="redes-sociais">
+          <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+          <li><a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+        </ul>
+      </footer>
+    
+    <script src="src/scripts/jquery-3.5.0-min.js"></script>
+    <script src="src/scripts/bootstrap.min.js"></script>
+    <script>
+        let prox = $('.btn-primary');
+        let ant = $('.btn-light');
+        let concluir = $('btn-success');
+        let forms = $('.marmitex-form');
+
+        prox.click( () => {
+            for (var i = 0; i < forms.length; i++){
+                if(!forms[i].classList.contains('hide')){
+                    forms[i].classList.add('hide');
+                    forms[i+1].classList.remove('hide');
+                    break;
+                }
+            }            
+        });
+
+        ant.click( () => {
+                for (var i = 0; i < forms.length; i++)
+                    if(!forms[i].classList.contains('hide')){
+                        forms[i].classList.add('hide');
+                        forms[i-1].classList.remove('hide');
+                        break;
+                    }
+                }            
+        );
+
+    </script>
+</body>
+=======
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marmitex Delivery</title>
+
+    <link rel = "shortcut icon" href="src/img/favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="src/css/reset.css">
+    <link rel="stylesheet" type = 'text/css' href="src/css/bootstrap.min.css">
+    <link rel="stylesheet" type = 'text/css' href="src/css/cores.css">
+    <link rel="stylesheet" type = 'text/css' href="src/css/cabecalho.css">
+    <link rel="stylesheet" type = 'text/css' href="src/css/footer.css">
+    <link rel="stylesheet" type = 'text/css' href="src/css/cadastro.css">
+    <!-- Elementos externos - Fontes e Glyphicons -->
+    <link href="https://fonts.googleapis.com/css?family=Candal|Days+One|Fugaz+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <header class="cor-laranja caixa"> 
+        <nav class = 'navbar navbar-expand-lg' id="barra-nav">
+            <h1><a href="" class="navbar-brand"><img src="src/img/Quentinhas-03.png" alt="Marmitex Delivery" class="logo img-fluid"></a></h1>            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02"></div>
+                <ul class = 'navbar-nav mr-auto mt-2 mt-lg-0 lista-nav'>
+                    <li class="nav-item item active">
+                        <a href="index.html" class="nav-link">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item item">
+                        <a href="#" class="nav-link">
+                            Planos
+                        </a>
+                    </li>
+                    <li class="nav-item item">
+                        <a href="#" class="nav-link">
+                           Parceiros
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="cadastro.html" class="nav-link">
+                            Entrar <span><i class="fa fa-sign-in" aria-hidden="true"></i></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row p-4">
+                <div class="col-lg-5 marmitex-form" id="personal-info">
+                    <h3>Cadastre-se</h3>
+                    <form action="">
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Nome Completo</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="João Augusto">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleFormControlInput1">Telefone</label>
+                              <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="+55 (DDD) 999999999">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleFormControlSelect2">Sua Senha:</label>
+                              <input type="password" class="form-control" id="exampleFormControlInput1">
+
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect2">Confirme sua Senha:</label>
+                                <input type="password" class="form-control" id="exampleFormControlInput1">
+
+                            </div>
+
+                    </form>
+
+                    <div class="botoes">
+                        <button type="button" class="btn btn-light disabled" aria-disabled="true">Anterior</button>
+                        <button type="button" class="btn btn-primary ">Próximo</button>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 marmitex-form hide" id="address-info">
+                    <h3>Endereço</h3>
+                    <form action="">
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">CEP</label>
+                                <input type="text" class="form-control" placeholder="44444-444">
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-8">
+                                    <label for="exampleFormControlInput1">Rua</label>
+                                    <input type="text" class="form-control" placeholder="Rua Piauí">
+                                </div>
+                                <div class="form-group col-4">
+                                    <label for="exampleFormControlSelect2">Número</label>
+                                    <input type="text" class="form-control">
+    
+                                </div>
+                            </div>   
+
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect2">Bairro</label>
+                                <input type="text" class="form-control" placeholder="Pituba">
+
+                            </div>
+                            
+                            <div class="row">
+                                <div class="form-group col-8">
+                                    <label for="exampleFormControlSelect2">Cidade</label>
+                                    <input type="text" class="form-control">
+
+                                </div>
+                                <div class="form-group col-4">
+                                    <label for="exampleFormControlSelect2">Estado</label>
+                                    <input type="text" class="form-control">
+
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect2">País</label>
+                                <input type="text" class="form-control">
+
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect2">Informações Adicionais</label>
+                                <input type="text" class="form-control">
+
+                            </div>
+                    </form>
+
+                    <div class="botoes">
+                        <button type="button" class="btn btn-light" aria-disabled="true">Anterior</button>
+                        <button type="button" class="btn btn-primary ">Próximo</button>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 marmitex-form hide">
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Quais comidas você espera encontrar no Marmitex?</label>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                          <label class="form-check-label" for="defaultCheck1">
+                            Massa
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                          <label class="form-check-label" for="defaultCheck1">
+                            Comida Baiana
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                          <label class="form-check-label" for="defaultCheck1">
+                            Frango à milanesa
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                          <label class="form-check-label" for="defaultCheck1">
+                            Bife à milanesa
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                          <label class="form-check-label" for="defaultCheck1">
+                            Comida Vegetariana
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                          <label class="form-check-label" for="defaultCheck1">
+                            Comida Vegana
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                          <label class="form-check-label" for="defaultCheck1">
+                            Churrasco
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                          <label class="form-check-label" for="defaultCheck1">
+                            Escondidinho
+                          </label>
+                        </div>
+                      </div>
+
+                    <div class="botoes">
+                        <button type="button" class="btn btn-light">Anterior</button>
+                        <a href="planos.html"><button type="button" class="btn btn-success">Escolher Plano</button></a>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+            </div>
+        </div>
+
+        
+    </main>
+
+    <footer class="cor-laranja">
+        <img class= "logo p-3" src="src/img/Quentinhas-03.png" alt="Foto da Logo"></div>
+        <p class="copyright">&copy; Copyright Marmitex Delivery - 2020</p>
+  
+        <ul class="redes-sociais">
+          <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+          <li><a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+        </ul>
+      </footer>
+    
+    <script src="src/scripts/jquery-3.5.0-min.js"></script>
+    <script src="src/scripts/bootstrap.min.js"></script>
+    <script>
+        let prox = $('.btn-primary');
+        let ant = $('.btn-light');
+        let concluir = $('btn-success');
+        let forms = $('.marmitex-form');
+
+        prox.click( () => {
+            for (var i = 0; i < forms.length; i++){
+                if(!forms[i].classList.contains('hide')){
+                    forms[i].classList.add('hide');
+                    forms[i+1].classList.remove('hide');
+                    break;
+                }
+            }            
+        });
+
+        ant.click( () => {
+                for (var i = 0; i < forms.length; i++)
+                    if(!forms[i].classList.contains('hide')){
+                        forms[i].classList.add('hide');
+                        forms[i-1].classList.remove('hide');
+                        break;
+                    }
+                }            
+        );
+
+    </script>
+</body>
+>>>>>>> ed7de91689b92fa50062947dde1fe912bacb9230
+</html>

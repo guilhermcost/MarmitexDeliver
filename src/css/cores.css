@@ -1,0 +1,29 @@
+.cor-laranja{
+    background-color: #F18318;
+}
+
+nav.cor-laranja{
+    opacity: 90%;
+}
+
+.borda-laranja {
+    border-color: #F18318;
+}
+
+#silver,#gold, #basic {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#silver{
+    color: silver;
+
+}
+
+#basic{
+    color: green;
+}
+
+#gold{
+    color: gold;
+}

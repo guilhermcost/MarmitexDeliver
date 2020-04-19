@@ -1,0 +1,25 @@
+.marmitex-form{
+    margin: 0 auto;
+    background-color: #F0F0F0;
+    padding: 50px;
+    border-radius: 7%;
+    box-shadow: 0 0 1em rgb(210,220,230);
+}
+
+.marmitex-form h3{
+    text-align: center;
+}
+
+.botoes{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.botoes button{
+    margin-left: 30px;
+}
+
+.hide{
+    display: none;
+
+}

@@ -1,0 +1,93 @@
+body{
+    font-family: 'Fugaz One', cursive;
+    background: #FFFFF0;
+}
+
+header{
+    color: white;
+    padding: 20px 0;
+    opacity: 0.9;
+    height: 200px;
+}
+
+.caixa{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caixa.navbar{
+  width: 90%;
+  margin: 0 auto;
+
+}
+
+.navbar{
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo{
+  max-width: 200px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar li{
+    display: inline-block;
+    margin: 0 0 0 10px;
+  }
+
+.navbar ul .nav-item:last-of-type a{
+    background-color: #029946;
+    border-radius: 10px;
+    
+}  
+
+  .navbar ul .nav-item.active a{
+    background-color: white;
+    padding: 5px 10px;
+    color: #F18318;
+    border-radius: 10px;
+    transition: 1s all;
+  }
+  
+  .navbar ul .nav-item.active a:hover{
+    text-decoration: underline;
+    font-size: 1.2em;
+  }
+  
+  .navbar .nav-item a{
+    text-decoration: none;
+    color: white;
+    font-weight: 0.6;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    transition: 750ms all;
+  }
+  
+  .navbar .nav-item a:hover{
+    border-radius: 10px;
+    background: white;
+    color:  #F18318;
+  
+  }
+
+  .navbar span{
+      font-size: 1em;
+  }
+
+  /* Media Queries */
+
+  @media (max-width:600px)
+  {
+    .logo{
+      width: 80px;
+    }
+  }

@@ -1,0 +1,394 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marmitex Delivery</title>
+
+    <link rel = "shortcut icon" href="src/img/favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="src/css/reset.css">
+    <link rel="stylesheet" type = 'text/css' href="src/css/bootstrap.min.css">
+    <link rel="stylesheet" type = 'text/css' href="src/css/cores.css">
+    <link rel="stylesheet" type = 'text/css' href="src/css/cabecalho.css">
+    <link rel="stylesheet" type = 'text/css' href="src/css/footer.css">
+    <link rel="stylesheet" type = 'text/css' href="src/css/home.css">
+    <!-- Elementos externos - Fontes e Glyphicons -->
+    <link href="https://fonts.googleapis.com/css?family=Candal|Days+One|Fugaz+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <header class="cor-laranja caixa"> 
+            <nav class = 'navbar navbar-expand-lg'>
+                <a href="" class="navbar-brand"><img src="src/img/Quentinhas-03.png" alt="Marmitex Delivery" class="logo img-fluid"></a>           
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02"></div>
+                    <ul class = 'navbar-nav mr-auto mt-2 mt-lg-0 lista-nav'>
+                        <li class="nav-item item active">
+                            <a href="#" class="nav-link">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="planos.html" class="nav-link">
+                                Planos
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                               Parceiros
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="cadastro.html" class="nav-link">
+                                Entrar <span><i class="fa fa-sign-in" aria-hidden="true"></i></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+    </header>
+
+    <main id="busca-geo">
+        <div class="container-fluid p-md-0">
+            <div class="row p-1">
+                <div class="col-lg-6 marmitex-apresentacao">
+                    <!-- <img class= 'img-fluid' src="src/img/mockup-cel.jpeg" alt=""> -->
+                </div>
+                <div class="col-sm marmitex-apresentacao">
+                    <h2 id="frase-titulo">Vem pedir sua Marmitex!</h1>
+                    <h3 id = "demo">Clique no botão para ver restaurantes por perto!</h3>
+                    <a class= "btn btn-secondary" onclick="getLocation()" href="cardapio.html">Clique aqui</a>
+                    <div class id="mapholder"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="como-funciona container">
+        <div class="row p-4">
+            <h1 class="titulo-secao col-sm text-center">Como Funciona</h1>
+        </div>
+
+        <div class="row p-4">
+            <div class="col-sm">
+                <h2>1. <i class="fa fa-truck" aria-hidden="true"></i></h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex sit, asperiores quisquam quibusdam consequatur, voluptas labore, aliquam nobis exercitationem obcaecati numquam excepturi nemo! Eligendi deserunt, tempore odio magnam earum nisi.</p>
+            </div>
+            <div class="col-sm">
+                <h2>2.  <i class="fa fa-truck" aria-hidden="true"></i></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quisquam minus quod dolorum nisi. Error obcaecati delectus repudiandae soluta eius magni, iure possimus modi, quam sequi aut vitae suscipit consequatur.</p>
+            </div>
+            <div class="col-sm">
+                <h2>3.  <i class="fa fa-truck" aria-hidden="true"></i></h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum vel saepe optio qui voluptate facilis voluptates accusamus, sapiente, amet necessitatibus ut fuga eius dignissimos incidunt? Maxime possimus quidem ullam cupiditate.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="pq-marmitex container">
+        <div class="row p-4">
+            <h1 class="titulo-secao col-sm text-center">Porque Escolher o Marmitex?</h1>
+        </div>
+        <div class="row p-2">
+            <div class="col-md">
+                <div class="card">
+                    <div class="card-body borda-laranja">
+                        <i class="icones-pq fa fa-clock-o" aria-hidden="true"></i><h5 class="card-title"> Cardápio Programado</h5>
+                        <p class="card-text">O Marmitex te oferece um cardápio diversificado com antecedência.
+                            Dessa maneira, você só precisa programar os seus almoços uma vez por semana!
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="card mt-3">
+                    <div class="card-body borda-laranja">
+                        <i class="icones-pq fa fa-line-chart" aria-hidden="true"></i>
+                        <h5 class="card-title"> Data-based </h5>
+                        <p class="card-text">O Marmitex utiliza uma grande quantidade de dados 
+                            para decidir o seu cardápio. Dessa maneira, o cliente sempre terá as opções mais
+                            desejadas por ele garantidas todos os dias da semana!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card mb-3 mt-3 mt-md-0">
+                    <div class="card-body borda-laranja">
+                        <i class="icones-pq fa fa-usd" aria-hidden="true"></i>
+                        <h5 class="card-title"> Custo-benefício </h5>
+                        <p class="card-text">Ao virar um marmiter, você terá acesso a refeições
+                            por um preço NUNCA antes visto no mercado!
+                        </p>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="card-body borda-laranja">
+                        <i class="icones-pq fa fa-motorcycle" aria-hidden="true"></i>
+                        <h5 class="card-title"> Rápido </h5>
+                        <p class="card-text">Como os restaurantes já sabem antes o que preparar,
+                            todo Marmiter terá o seu alimento entregue no horário programado.
+                            Comida fria e trocada sem chance!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="cor-laranja">
+        <img class= "logo p-3" src="src/img/Quentinhas-03.png" alt="Foto da Logo"></div>
+        <p class="copyright">&copy; Copyright Marmitex Delivery - 2020</p>
+  
+        <ul class="redes-sociais">
+          <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+          <li><a href="https://api.whatsapp.com/send?1=pt_BR&phone=5575991608803"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+        </ul>
+    </footer>
+
+    <script src="src/scripts/jquery-3.5.0-min.js"></script>
+    <script src="src/scripts/bootstrap.min.js"></script>
+    <script src="src/scripts/calculando-distancias.js"></script>
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script>
+var x=document.getElementById("demo");
+function getLocation()
+  {
+  if (navigator.geolocation)
+    {
+    navigator.geolocation.getCurrentPosition(showPosition,showError);
+    }
+  else{x.innerHTML="Seu browser não suporta Geolocalização.";}
+  }
+function showPosition(position)
+  {
+  x.innerHTML="Latitude: " + position.coords.latitude +
+  "<br>Longitude: " + position.coords.longitude; 
+  }
+function showError(error)
+  {
+  switch(error.code)
+    {
+    case error.PERMISSION_DENIED:
+      x.innerHTML="Usuário rejeitou a solicitação de Geolocalização."
+      break;
+    case error.POSITION_UNAVAILABLE:
+      x.innerHTML="Localização indisponível."
+      break;
+    case error.TIMEOUT:
+      x.innerHTML="A requisição expirou."
+      break;
+    case error.UNKNOWN_ERROR:
+      x.innerHTML="Algum erro desconhecido aconteceu."
+      break;
+    }
+  }
+</script>
+</body>
+=======
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marmitex Delivery</title>
+
+    <link rel = "shortcut icon" href="src/img/favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="src/css/reset.css">
+    <link rel="stylesheet" type = 'text/css' href="src/css/bootstrap.min.css">
+    <link rel="stylesheet" type = 'text/css' href="src/css/cores.css">
+    <link rel="stylesheet" type = 'text/css' href="src/css/cabecalho.css">
+    <link rel="stylesheet" type = 'text/css' href="src/css/footer.css">
+    <link rel="stylesheet" type = 'text/css' href="src/css/home.css">
+    <!-- Elementos externos - Fontes e Glyphicons -->
+    <link href="https://fonts.googleapis.com/css?family=Candal|Days+One|Fugaz+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <header class="cor-laranja caixa"> 
+            <nav class = 'navbar navbar-expand-lg'>
+                <a href="" class="navbar-brand"><img src="src/img/Quentinhas-03.png" alt="Marmitex Delivery" class="logo img-fluid"></a>           
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02"></div>
+                    <ul class = 'navbar-nav mr-auto mt-2 mt-lg-0 lista-nav'>
+                        <li class="nav-item item active">
+                            <a href="#" class="nav-link">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="planos.html" class="nav-link">
+                                Planos
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                               Parceiros
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="cadastro.html" class="nav-link">
+                                Entrar <span><i class="fa fa-sign-in" aria-hidden="true"></i></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+    </header>
+
+    <main id="busca-geo">
+        <div class="container-fluid p-md-0">
+            <div class="row p-1">
+                <div class="col-lg-6 marmitex-apresentacao">
+                    <!-- <img class= 'img-fluid' src="src/img/mockup-cel.jpeg" alt=""> -->
+                </div>
+                <div class="col-sm marmitex-apresentacao">
+                    <h2 id="frase-titulo">Vem pedir sua Marmitex!</h1>
+                    <h3 id = "demo">Clique no botão para ver restaurantes por perto!</h3>
+                    <a class= "btn btn-secondary" onclick="getLocation()" href="cardapio.html">Clique aqui</a>
+                    <div class id="mapholder"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="como-funciona container">
+        <div class="row p-4">
+            <h1 class="titulo-secao col-sm text-center">Como Funciona</h1>
+        </div>
+
+        <div class="row p-4">
+            <div class="col-sm">
+                <h2>1. <i class="fa fa-truck" aria-hidden="true"></i></h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex sit, asperiores quisquam quibusdam consequatur, voluptas labore, aliquam nobis exercitationem obcaecati numquam excepturi nemo! Eligendi deserunt, tempore odio magnam earum nisi.</p>
+            </div>
+            <div class="col-sm">
+                <h2>2.  <i class="fa fa-truck" aria-hidden="true"></i></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quisquam minus quod dolorum nisi. Error obcaecati delectus repudiandae soluta eius magni, iure possimus modi, quam sequi aut vitae suscipit consequatur.</p>
+            </div>
+            <div class="col-sm">
+                <h2>3.  <i class="fa fa-truck" aria-hidden="true"></i></h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum vel saepe optio qui voluptate facilis voluptates accusamus, sapiente, amet necessitatibus ut fuga eius dignissimos incidunt? Maxime possimus quidem ullam cupiditate.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="pq-marmitex container">
+        <div class="row p-4">
+            <h1 class="titulo-secao col-sm text-center">Porque Escolher o Marmitex?</h1>
+        </div>
+        <div class="row p-2">
+            <div class="col-md">
+                <div class="card">
+                    <div class="card-body borda-laranja">
+                        <i class="icones-pq fa fa-clock-o" aria-hidden="true"></i><h5 class="card-title"> Cardápio Programado</h5>
+                        <p class="card-text">O Marmitex te oferece um cardápio diversificado com antecedência.
+                            Dessa maneira, você só precisa programar os seus almoços uma vez por semana!
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="card mt-3">
+                    <div class="card-body borda-laranja">
+                        <i class="icones-pq fa fa-line-chart" aria-hidden="true"></i>
+                        <h5 class="card-title"> Data-based </h5>
+                        <p class="card-text">O Marmitex utiliza uma grande quantidade de dados 
+                            para decidir o seu cardápio. Dessa maneira, o cliente sempre terá as opções mais
+                            desejadas por ele garantidas todos os dias da semana!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card mb-3 mt-3 mt-md-0">
+                    <div class="card-body borda-laranja">
+                        <i class="icones-pq fa fa-usd" aria-hidden="true"></i>
+                        <h5 class="card-title"> Custo-benefício </h5>
+                        <p class="card-text">Ao virar um marmiter, você terá acesso a refeições
+                            por um preço NUNCA antes visto no mercado!
+                        </p>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="card-body borda-laranja">
+                        <i class="icones-pq fa fa-motorcycle" aria-hidden="true"></i>
+                        <h5 class="card-title"> Rápido </h5>
+                        <p class="card-text">Como os restaurantes já sabem antes o que preparar,
+                            todo Marmiter terá o seu alimento entregue no horário programado.
+                            Comida fria e trocada sem chance!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="cor-laranja">
+        <img class= "logo p-3" src="src/img/Quentinhas-03.png" alt="Foto da Logo"></div>
+        <p class="copyright">&copy; Copyright Marmitex Delivery - 2020</p>
+  
+        <ul class="redes-sociais">
+          <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+          <li><a href="https://api.whatsapp.com/send?1=pt_BR&phone=5575991608803"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+        </ul>
+    </footer>
+
+    <script src="src/scripts/jquery-3.5.0-min.js"></script>
+    <script src="src/scripts/bootstrap.min.js"></script>
+    <script src="src/scripts/calculando-distancias.js"></script>
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script>
+var x=document.getElementById("demo");
+function getLocation()
+  {
+  if (navigator.geolocation)
+    {
+    navigator.geolocation.getCurrentPosition(showPosition,showError);
+    }
+  else{x.innerHTML="Seu browser não suporta Geolocalização.";}
+  }
+function showPosition(position)
+  {
+  x.innerHTML="Latitude: " + position.coords.latitude +
+  "<br>Longitude: " + position.coords.longitude; 
+  }
+function showError(error)
+  {
+  switch(error.code)
+    {
+    case error.PERMISSION_DENIED:
+      x.innerHTML="Usuário rejeitou a solicitação de Geolocalização."
+      break;
+    case error.POSITION_UNAVAILABLE:
+      x.innerHTML="Localização indisponível."
+      break;
+    case error.TIMEOUT:
+      x.innerHTML="A requisição expirou."
+      break;
+    case error.UNKNOWN_ERROR:
+      x.innerHTML="Algum erro desconhecido aconteceu."
+      break;
+    }
+  }
+</script>
+</body>
+>>>>>>> ed7de91689b92fa50062947dde1fe912bacb9230
+</html>

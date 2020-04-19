@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marmitex Delivery</title>
+
+    <link rel = "shortcut icon" href="src/img/favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="src/css/reset.css">
+    <link rel="stylesheet" type = 'text/css' href="src/css/bootstrap.min.css">
+    <link rel="stylesheet" type = 'text/css' href="src/css/cores.css">
+    <link rel="stylesheet" type = 'text/css' href="src/css/cabecalho.css">
+    <link rel="stylesheet" type = 'text/css' href="src/css/footer.css">
+    <!-- Elementos externos - Fontes e Glyphicons -->
+    <link href="https://fonts.googleapis.com/css?family=Candal|Days+One|Fugaz+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <header class="cor-laranja caixa"> 
+        <nav class = 'navbar navbar-expand-lg' id="barra-nav">
+            <h1><a href="" class="navbar-brand"><img src="src/img/Quentinhas-03.png" alt="Marmitex Delivery" class="logo img-fluid"></a></h1>            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02"></div>
+                <ul class = 'navbar-nav mr-auto mt-2 mt-lg-0 lista-nav'>
+                    <li class="nav-item active">
+                        <a href="index.html" class="nav-link">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            Planos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                           Parceiros
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="cadastro.html" class="nav-link">
+                            Entrar <span><i class="fa fa-sign-in" aria-hidden="true"></i></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container concluida text-center mt-5 mb-5" style="line-height: 2em;">
+        <h1>Pronto! Agora você é um Membro Marmitex</h1>
+        <p>Você acabou de adquirir 15 <i style="color: #F18318;" class="fa fa-ticket" aria-hidden="true"></i> Marmitokens. Eles são válidos por um mês e cada um vale uma refeição. Aproveite!</p>
+        
+        <div class="row w-75 m-auto p-3 border border-secondary rounded">
+            <div class="col-md-4 mt-3"><img class='img-fluid' src= "src/img/marmitex-normal-refri-lata1501793363-1553622904.jpg" alt=""></div>
+            <div class="col-md-4 mt-4 mt-md-0">
+                <h4>Carne-do-sol</h4>
+                <p>Acompanhamentos:</p>
+                <ul>
+                    <li>Farofa</li>
+                    <li>Arroz</li>
+                    <li>Aipim Frito</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <label for="">Quantidade</label>
+                <input type='number' value = "1" id="">
+
+                <p class="mt-4"><span id="quantidade">1 </span><i style="color: #F18318;" class="fa fa-ticket m-4" aria-hidden="true"></i></p>
+            </div>
+        </div>
+
+        <div class="botoes mt-4">
+            <a href="index.html" role="button" class="btn btn-danger mb-4">Cancelar</a>
+            <a href="acompanha-pedido.html" role="button" class="btn btn-success mb-4 ml-4">Concluir Pedido</a>
+        </div>
+    </main>
+
+    <footer class="cor-laranja">
+        <img class= "logo p-3" src="src/img/Quentinhas-03.png" alt="Foto da Logo"></div>
+        <p class="copyright">&copy; Copyright Marmitex Delivery - 2020</p>
+  
+        <ul class="redes-sociais">
+          <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+          <li><a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+        </ul>
+    </footer>
+
+    <script src="src/scripts/bootstrap.min.js"></script>
+    <script src="src/scripts/jquery-3.5.0-min.js"></script>
+    <script src="src/scripts/calculando-distancias.js"></script>
+</body>
+</html>
